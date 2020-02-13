@@ -6,5 +6,9 @@ use Illuminate\Database\Eloquent\Model;
 
 class Desenvolvedor extends Model
 {
-    protected $table = 'desenvovedores';
+    protected $table = 'desenvolvedores';
+
+    function projetos() {
+        return $this->belongsToMany("App\Projeto", "alocacoes");
+    }
 }
