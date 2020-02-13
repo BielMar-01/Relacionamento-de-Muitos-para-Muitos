@@ -6,6 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'AlocacoesSeeder' => $baseDir . '/database/seeds/AlocacoesSeeder.php',
     'App\\Alocacao' => $baseDir . '/app/Alocacao.php',
     'App\\Console\\Kernel' => $baseDir . '/app/Console/Kernel.php',
     'App\\Desenvolvedor' => $baseDir . '/app/Desenvolvedor.php',
@@ -103,6 +104,7 @@ return array(
     'DeepCopy\\TypeFilter\\Spl\\SplDoublyLinkedListFilter' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/TypeFilter/Spl/SplDoublyLinkedListFilter.php',
     'DeepCopy\\TypeFilter\\TypeFilter' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/TypeFilter/TypeFilter.php',
     'DeepCopy\\TypeMatcher\\TypeMatcher' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/TypeMatcher/TypeMatcher.php',
+    'DesenvolvedoresSeeder' => $baseDir . '/database/seeds/DesenvolvedoresSeeder.php',
     'Doctrine\\Common\\Inflector\\Inflector' => $vendorDir . '/doctrine/inflector/lib/Doctrine/Common/Inflector/Inflector.php',
     'Doctrine\\Common\\Lexer\\AbstractLexer' => $vendorDir . '/doctrine/lexer/lib/Doctrine/Common/Lexer/AbstractLexer.php',
     'Doctrine\\Instantiator\\Exception\\ExceptionInterface' => $vendorDir . '/doctrine/instantiator/src/Doctrine/Instantiator/Exception/ExceptionInterface.php',
@@ -2817,6 +2819,7 @@ return array(
     'PhpParser\\Parser\\Tokens' => $vendorDir . '/nikic/php-parser/lib/PhpParser/Parser/Tokens.php',
     'PhpParser\\PrettyPrinterAbstract' => $vendorDir . '/nikic/php-parser/lib/PhpParser/PrettyPrinterAbstract.php',
     'PhpParser\\PrettyPrinter\\Standard' => $vendorDir . '/nikic/php-parser/lib/PhpParser/PrettyPrinter/Standard.php',
+    'ProjetosSeeder' => $baseDir . '/database/seeds/ProjetosSeeder.php',
     'Prophecy\\Argument' => $vendorDir . '/phpspec/prophecy/src/Prophecy/Argument.php',
     'Prophecy\\Argument\\ArgumentsWildcard' => $vendorDir . '/phpspec/prophecy/src/Prophecy/Argument/ArgumentsWildcard.php',
     'Prophecy\\Argument\\Token\\AnyValueToken' => $vendorDir . '/phpspec/prophecy/src/Prophecy/Argument/Token/AnyValueToken.php',
