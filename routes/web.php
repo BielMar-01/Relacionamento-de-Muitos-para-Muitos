@@ -27,8 +27,9 @@ Route::get('/desenvolvedor_projeto', function () {
             echo "<ul>";
             foreach($d->projetos as $p) {
                 echo "<li>";
-                echo "Nome: " . $p->nome. "|";
-                echo "Horas: " . $p->estimativa_horas ;
+                echo "Nome: " . $p->nome . " | ";
+                echo "Horas do Projeto: " . $p->estimativa_horas . " | " ;
+                echo "Horas Trabalhadas: " . $p->pivot->horas_semanais;
                 echo "</li>";
             }
             echo "</ul>";
