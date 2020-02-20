@@ -1464,3 +1464,55 @@
 #31 /home/gabril/code/rel-de-muitos-para-muitos/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
 #32 {main}
 "} 
+[2020-02-20 12:34:50] local.ERROR: Command "seed" is not defined.
+
+Did you mean one of these?
+    db:seed
+    make:seeder {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"seed\" is not defined.
+
+Did you mean one of these?
+    db:seed
+    make:seeder at /home/gabril/code/rel-muitos-pra-muitos/vendor/symfony/console/Application.php:670)
+[stacktrace]
+#0 /home/gabril/code/rel-muitos-pra-muitos/vendor/symfony/console/Application.php(236): Symfony\\Component\\Console\\Application->find()
+#1 /home/gabril/code/rel-muitos-pra-muitos/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun()
+#2 /home/gabril/code/rel-muitos-pra-muitos/vendor/laravel/framework/src/Illuminate/Console/Application.php(93): Symfony\\Component\\Console\\Application->run()
+#3 /home/gabril/code/rel-muitos-pra-muitos/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(131): Illuminate\\Console\\Application->run()
+#4 /home/gabril/code/rel-muitos-pra-muitos/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
+[2020-02-20 12:54:59] local.ERROR: syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ',' {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ',' at /home/gabril/code/rel-muitos-pra-muitos/routes/web.php:51)
+[stacktrace]
+#0 /home/gabril/code/rel-muitos-pra-muitos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(416): Illuminate\\Routing\\RouteFileRegistrar->register()
+#1 /home/gabril/code/rel-muitos-pra-muitos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(374): Illuminate\\Routing\\Router->loadRoutes()
+#2 /home/gabril/code/rel-muitos-pra-muitos/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(121): Illuminate\\Routing\\Router->group()
+#3 /home/gabril/code/rel-muitos-pra-muitos/app/Providers/RouteServiceProvider.php(63): Illuminate\\Routing\\RouteRegistrar->group()
+#4 /home/gabril/code/rel-muitos-pra-muitos/app/Providers/RouteServiceProvider.php(47): App\\Providers\\RouteServiceProvider->mapWebRoutes()
+#5 [internal function]: App\\Providers\\RouteServiceProvider->map()
+#6 /home/gabril/code/rel-muitos-pra-muitos/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(32): call_user_func_array()
+#7 /home/gabril/code/rel-muitos-pra-muitos/vendor/laravel/framework/src/Illuminate/Container/Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#8 /home/gabril/code/rel-muitos-pra-muitos/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure()
+#9 /home/gabril/code/rel-muitos-pra-muitos/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#10 /home/gabril/code/rel-muitos-pra-muitos/vendor/laravel/framework/src/Illuminate/Container/Container.php(590): Illuminate\\Container\\BoundMethod::call()
+#11 /home/gabril/code/rel-muitos-pra-muitos/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php(87): Illuminate\\Container\\Container->call()
+#12 /home/gabril/code/rel-muitos-pra-muitos/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#13 /home/gabril/code/rel-muitos-pra-muitos/app/Providers/RouteServiceProvider.php(35): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->boot()
+#14 [internal function]: App\\Providers\\RouteServiceProvider->boot()
+#15 /home/gabril/code/rel-muitos-pra-muitos/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(32): call_user_func_array()
+#16 /home/gabril/code/rel-muitos-pra-muitos/vendor/laravel/framework/src/Illuminate/Container/Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#17 /home/gabril/code/rel-muitos-pra-muitos/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure()
+#18 /home/gabril/code/rel-muitos-pra-muitos/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#19 /home/gabril/code/rel-muitos-pra-muitos/vendor/laravel/framework/src/Illuminate/Container/Container.php(590): Illuminate\\Container\\BoundMethod::call()
+#20 /home/gabril/code/rel-muitos-pra-muitos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(836): Illuminate\\Container\\Container->call()
+#21 /home/gabril/code/rel-muitos-pra-muitos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(819): Illuminate\\Foundation\\Application->bootProvider()
+#22 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}()
+#23 /home/gabril/code/rel-muitos-pra-muitos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(820): array_walk()
+#24 /home/gabril/code/rel-muitos-pra-muitos/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#25 /home/gabril/code/rel-muitos-pra-muitos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap()
+#26 /home/gabril/code/rel-muitos-pra-muitos/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(156): Illuminate\\Foundation\\Application->bootstrapWith()
+#27 /home/gabril/code/rel-muitos-pra-muitos/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(140): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#28 /home/gabril/code/rel-muitos-pra-muitos/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#29 /home/gabril/code/rel-muitos-pra-muitos/public/index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle()
+#30 /home/gabril/.composer/vendor/cpriego/valet-linux/server.php(232): require('/home/gabril/co...')
+#31 {main}
+"} 
